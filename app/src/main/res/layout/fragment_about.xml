@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="读到的身份证数据保存在内存/mnt/sdcard/wlitlib/idcard.xls文件里面，想要查看自行导出电脑查看。以数据库保存的方式是在/sdcard/wltlib/idcard.db数据库，黑名单保存在/sdcard/wltlib/black_idcard.db数据库里面,自行导出到电脑查看。"/>
+    
+</LinearLayout>
